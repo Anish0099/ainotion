@@ -4,6 +4,7 @@ import { Separator } from "@/components/ui/separator";
 import { db } from "@/lib/db";
 import { $notes } from "@/lib/db/schema";
 import { UserButton, auth } from "@clerk/nextjs";
+import { getAuth } from "@clerk/nextjs/server";
 import { eq } from "drizzle-orm";
 import { ArrowLeft } from "lucide-react";
 import Image from "next/image";

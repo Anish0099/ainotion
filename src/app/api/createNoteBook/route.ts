@@ -4,12 +4,14 @@ import { db } from "@/lib/db";
 import { $notes } from "@/lib/db/schema";
 import { generateImage, generateImagePrompt } from "@/lib/openai";
 import { auth } from "@clerk/nextjs";
-import { NextResponse } from "next/server";
+import { getAuth } from "@clerk/nextjs/server";
+import { get } from "http";
+import { NextRequest, NextResponse } from "next/server";
 
 export const runtime = "edge";
 
-export async function POST(req: Request) {
-  const { userId } = auth();
+export async function POST(req: NextRequest) {
+  const { userId } = getAuth(req);
   if (!userId) {
     return new NextResponse("unauthorised", { status: 401 });
   }
