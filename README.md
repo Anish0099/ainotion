@@ -1,36 +1,27 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+📝✨ AI Notion App 🚀🖼️
 
-## Getting Started
+Welcome to the AI Notion App! This innovative note-taking platform combines AI capabilities to enhance your productivity. Enjoy auto-generated images, smart autocomplete features, and a sleek, user-friendly interface.
 
-First, run the development server:
+🌟 Features
+🤖 AI Image Generation: Automatically generate relevant images for your notes using AI.
+🔍 Smart Autocomplete: Speed up your note-taking with intelligent autocomplete suggestions.
+🎨 Beautiful UI: Experience a visually appealing interface with customizable themes.
+📋 Rich Text Editing: Create detailed notes with a rich text editor supporting various formats.
+🌐 Web-Based Access: Access your notes from any device with a modern web browser.
+💾 Secure Storage: Your notes are stored securely with options for cloud synchronization.
+📸 Screenshots
+🖼️ AI-Generated Images
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+✍️ Smart Autocomplete
+![Screenshot (222)](https://github.com/Anish0099/ainotion/assets/109581121/7259dddb-aca7-44a8-b990-02114d880ceb)
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+🌞 Light Mode
+![Screenshot (223)](https://github.com/Anish0099/ainotion/assets/109581121/5b504856-21d5-4e70-8790-fe45b742d1a4)
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+🌜 Dark Mode
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+🚀 Getting Started
+📋 Prerequisites
+🟢 Node.js: Ensure you have Node.js installed.
+📦 npm/yarn: You will need npm or yarn to install dependencies.
+🖼️ Image Generation API Key: Obtain an API key from the AI image generation service.
